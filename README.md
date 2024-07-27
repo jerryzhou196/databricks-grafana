@@ -1,2 +1,9 @@
-# databricks-grafana
-cloud-agnostic real-time spark compute monitoring to save hundreds in cloud bills 💸
+# Monitor Databricks Spark Metrics In Grafana  
+  
+- Real-time plug and play functionality with one-click script deployment.
+
+- Terraformatically deploy using Databricks Cluster Policies
+
+- Leverage Grafana Mimir Cloud's pricing model 
+
+
