@@ -23,8 +23,13 @@ A robust monitoring and alerting system lets DevOps and engineering teams proact
 
 # Why Use This Over Other Solutions? 
 
-Currently, no **cloud-agnostic** single-source-of-truth for Databricks Spark Monitoring exists. Native solutions like Ganglia UI and [Databricks Compute Metrics](https://docs.databricks.com/en/compute/cluster-metrics.html) exist. Here are some problems with the existing solutions: 
+Currently, no **cloud-agnostic** single-source-of-truth for Databricks Spark Monitoring exists. Native solutions like [Ganglia UI](https://medium.com/quintoandar-tech-blog/ganglia-on-spark-cluster-optimization-at-its-best-e5c9dc29253b) and [Databricks Compute Metrics](https://docs.databricks.com/en/compute/cluster-metrics.html) exist. Here are some problems with the existing solutions: 
 
-- Ganglia doesn't support alerts, custom metric visualizations or long-term persistance.
+- Ganglia UI doesn't support alerts, custom metric visualizations or long-term persistance.
 
-- [Existing solutions like this one using AWS's cloudwatch agents](https://aws.amazon.com/blogs/mt/how-to-monitor-databricks-with-amazon-cloudwatch/) are extremely buggy and not well-maintained. This solution leverages the open-source Open-Telemetry Collector that guranteeds fast performance and much more robustness. 
+- Existing solutions [like this one using AWS's cloudwatch agents](https://aws.amazon.com/blogs/mt/how-to-monitor-databricks-with-amazon-cloudwatch/) are extremely buggy and not well-maintained as they rely on closed-source agents. This solution leverages the **Open-Source** [Open-Telemetry Collector](https://github.com/open-telemetry/opentelemetry-collector-contrib) that guranteeds lightning-fast performance and much more robustness.
+
+- Databricks offers some [compute metrics](https://docs.databricks.com/en/compute/cluster-metrics.html) but these are bulky, not-persisted and hidden by cluster. These metrics are intentionally designed to be difficult to use out of an incentive to transition customers towards Databrick's Serverless Compute.
+
+- 
+
