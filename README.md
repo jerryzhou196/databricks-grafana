@@ -1,4 +1,4 @@
-# Monitor Databricks Spark Metrics On Grafana  
+# Monitor Databricks Spark Metrics On Grafana Cloud
   
 - 🔥 Real-time plug and play functionality with one-click `init script` deployment.
 
