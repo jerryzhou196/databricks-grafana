@@ -27,7 +27,7 @@ Currently, no **cloud-agnostic** single-source-of-truth for Databricks Spark Mon
 
 - Ganglia UI doesn't support alerts, custom metric visualizations or long-term persistance.
 
-- Existing solutions [like this one using AWS's cloudwatch agents](https://aws.amazon.com/blogs/mt/how-to-monitor-databricks-with-amazon-cloudwatch/) are extremely buggy and not well-maintained as they rely on closed-source agents. This solution leverages the **Open-Source** [Open-Telemetry Collector](https://github.com/open-telemetry/opentelemetry-collector-contrib) that guranteeds lightning-fast performance and much more robustness.
+- Existing solutions [like this one using AWS's cloudwatch agents](https://aws.amazon.com/blogs/mt/how-to-monitor-databricks-with-amazon-cloudwatch/) are extremely buggy and not well-maintained as they rely on closed-source custom agents. This solution leverages the **Open-Source** [Open-Telemetry Collector](https://github.com/open-telemetry/opentelemetry-collector-contrib) that guranteeds lightning-fast performance and much more robustness.
 
 - Databricks offers some [compute metrics](https://docs.databricks.com/en/compute/cluster-metrics.html) but these are bulky, not-persisted and hidden by cluster. These metrics are intentionally designed to be difficult to use out of an incentive to transition customers towards Databrick's Serverless Compute.
 
