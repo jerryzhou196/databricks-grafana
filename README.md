@@ -2,7 +2,7 @@
 
 ![image](https://github.com/user-attachments/assets/534d4b60-4ece-46e4-a423-361b60a79463)
   
-- real-time plug and play functionality with one-click `init script` deployment.
+- real-time plug and play functionality with one-click deployment using init-scripts.
 
 - persist Databricks Spark metrics to properly provision `instance-types` across AWS, GCP and Azure. This can save enterprise Databricks customers thousands in monthly compute cost.
 
@@ -11,6 +11,8 @@
 - [terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
 
 - leverage Grafana Mimir Cloud's pricing model ($8/month for 1k series, which is **far cheaper** than other vendors like DataDog).
+
+https://github.com/user-attachments/assets/febe56b1-cc39-4915-a90d-859e73f2aa0b
 
 # Why monitor and alert?
 A robust monitoring and alerting system lets DevOps and engineering teams proactively answer the following questions to help maintain a healthy and stable production environment:
