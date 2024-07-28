@@ -1,14 +1,16 @@
-# Monitor Databricks Spark Metrics On Grafana Cloud
+# 🔎 a single pane of glass for your internal data platform 
+
+https://github.com/user-attachments/assets/d5f6742c-b0f5-4a1a-b522-c5488da48265
   
-- 🔥 Real-time plug and play functionality with one-click `init script` deployment.
+- real-time plug and play functionality with one-click `init script` deployment.
 
-- 💸 Persist Databricks Spark metrics to properly provision `instance-types` across AWS, GCP and Azure. This can save enterprise Databricks customers thousands in monthly compute cost.
+- persist Databricks Spark metrics to properly provision `instance-types` across AWS, GCP and Azure. This can save enterprise Databricks customers thousands in monthly compute cost.
 
-- 🔧 Fine-tune Spark jobs and identify Spark worst-practices. 
+- fine-tune Spark jobs and identify Spark worst-practices. 
 
-- 🦾 [Terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
+- [terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
 
-- 😌 Leverage Grafana Mimir Cloud's pricing model ($8/month for 1k series, which is **far cheaper** than other vendors like DataDog).
+- leverage Grafana Mimir Cloud's pricing model ($8/month for 1k series, which is **far cheaper** than other vendors like DataDog).
 
 # Why monitor and alert?
 A robust monitoring and alerting system lets DevOps and engineering teams proactively answer the following questions to help maintain a healthy and stable production environment:
