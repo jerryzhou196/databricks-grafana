@@ -4,11 +4,13 @@
 
 ![image](https://github.com/user-attachments/assets/fca71a52-c23d-4b0a-b1bc-fc09d01330b0)
   
-- real-time plug and play functionality with one-click deployment using init-scripts.
+- **one-click deployment** using Databricks init-scripts 
 
-- persist Databricks Spark metrics to properly provision `instance-types` across AWS, GCP and Azure. This can save enterprise Databricks customers thousands in monthly compute cost.
+- robust design leveraging blazing-fast [open-source OTLP collector agents](https://github.com/open-telemetry/opentelemetry-collector)
 
-- fine-tune Spark jobs and identify Spark worst-practices. 
+- easily fine-tune Spark jobs and identify Spark worst-practices. 
+
+- identify over-provisioned and under-provisioned instance types
 
 - [terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
 
