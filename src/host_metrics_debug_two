@@ -1,0 +1,32 @@
+receivers:
+  hostmetrics:
+    collection_interval: 10s
+    scrapers:
+      cpu:
+        metrics:
+          system.cpu.time:
+            enabled: true
+
+processors:
+  filter/metric_attr:
+    error_mode: ignore
+    metrics:
+      include:
+        match_type: expr
+        expressions:
+          - Label("cpu") == "^cpu0$"
+
+exporters:
+  prometheus:
+    endpoint: localhost:8889
+    namespace: otel-host-metrics
+
+service:
+  telemetry:
+    logs:
+      level: debug
+  pipelines:
+    metrics:
+      receivers: [hostmetrics]
+      processors: [filter/metric_attr]
+      exporters: [prometheus]
