@@ -2,7 +2,7 @@
 
 > "a single pane of glass" for cloud compute metrics
 
-![image](https://github.com/user-attachments/assets/fca71a52-c23d-4b0a-b1bc-fc09d01330b0)
+![image](https://github.com/user-attachments/assets/61801050-4955-4f3b-b106-eb3e3e9de89f)
   
 - **one-click deployment** using Databricks init-scripts 
 
