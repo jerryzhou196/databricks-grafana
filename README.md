@@ -1,6 +1,6 @@
-# 🔎 A Single Pane of Glass for Databricks Compute Monitoring  
+# 🔎 a single pane of glass for databricks compute monitoring
 
-https://github.com/user-attachments/assets/febe56b1-cc39-4915-a90d-859e73f2aa0b
+![image](https://github.com/user-attachments/assets/534d4b60-4ece-46e4-a423-361b60a79463)
   
 - real-time plug and play functionality with one-click deployment using init-scripts.
 
@@ -12,8 +12,8 @@ https://github.com/user-attachments/assets/febe56b1-cc39-4915-a90d-859e73f2aa0b
 
 - leverage Grafana Mimir Cloud's pricing model ($8/month for 1k series, which is **far cheaper** than other vendors like DataDog).
 
-# Live Demo
-![image](https://github.com/user-attachments/assets/534d4b60-4ece-46e4-a423-361b60a79463)
+https://github.com/user-attachments/assets/febe56b1-cc39-4915-a90d-859e73f2aa0b
+
 
 # why monitor and alert?
 A robust monitoring and alerting system lets DevOps and engineering teams proactively answer the following questions to help maintain a healthy and stable production environment:
@@ -26,7 +26,7 @@ A robust monitoring and alerting system lets DevOps and engineering teams proact
 
 4) **Experiment configurations**: “Were my jobs running slower last week? Should we add more CPU or memory to improve performance?”
 
-# Why Use This Over Other Solutions? 
+# why use this over other solutions? 
 
 Currently, no **cloud-agnostic** single-source-of-truth for Databricks Spark Monitoring exists. Native solutions like [Ganglia UI](https://medium.com/quintoandar-tech-blog/ganglia-on-spark-cluster-optimization-at-its-best-e5c9dc29253b) and [Databricks Compute Metrics](https://docs.databricks.com/en/compute/cluster-metrics.html) exist. Here are some problems with the existing solutions: 
 
