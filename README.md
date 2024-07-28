@@ -14,8 +14,6 @@
   
 # why monitor and alert?
 
-https://github.com/user-attachments/assets/febe56b1-cc39-4915-a90d-859e73f2aa0b
-
 A robust monitoring and alerting system lets DevOps and engineering teams proactively answer the following questions to help maintain a healthy and stable production environment:
 
 1) **Health check:** Are your jobs and your core/golden signals healthy?
