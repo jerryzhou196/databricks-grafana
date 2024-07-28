@@ -28,7 +28,7 @@ A robust monitoring and alerting system lets DevOps and engineering teams proact
 
 # why use this over other solutions? 
 
-Currently, no **cloud-agnostic** single-source-of-truth for Databricks Spark Monitoring exists. Native solutions like [Ganglia UI](https://medium.com/quintoandar-tech-blog/ganglia-on-spark-cluster-optimization-at-its-best-e5c9dc29253b) and [Databricks Compute Metrics](https://docs.databricks.com/en/compute/cluster-metrics.html) exist. Here are some problems with the existing solutions: 
+Currently, no **cloud-agnostic** single-source-of-truth for Databricks Spark Monitoring exists. Native solutions like [Ganglia UI](https://medium.com/quintoandar-tech-blog/ganglia-on-spark-cluster-optimization-at-its-best-e5c9dc29253b) and [Databricks Compute Metrics](https://docs.databricks.com/en/compute/cluster-metrics.html) exist, but...
 
 - Ganglia UI doesn't support alerts, custom metric visualizations or long-term persistance.
 
