@@ -8,11 +8,7 @@
 
 - robust design leveraging **blazing-fast** [open-source OTLP collector agents](https://github.com/open-telemetry/opentelemetry-collector)
 
-- use metrics to fine-tune Spark jobs and identify worst-practices 
-
-- identify over-provisioned and under-provisioned instance types
-
-- [terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
+- [terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy across **hundreds** of clusters instantly using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
 
 - leverage Grafana Mimir Cloud's pricing model ($8/month for 1k metric series, which is **far cheaper** than other vendors like DataDog)
   
