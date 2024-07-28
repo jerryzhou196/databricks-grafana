@@ -14,12 +14,6 @@ initialize_env() {
 generate_config() {
 	local config_path="/databricks/otelcol/config.yaml"
 	cat <<EOF | envsubst >$config_path
-extensions:
-  basicauth/grafana_cloud:
-    # https://github.com/open-telemetry/opentelemetry-collector-contrib/tree/main/extension/basicauthextension
-    client_auth:
-      username: "\${GRAFANA_USERNAME}"
-      password: "\${GRAFANA_CLOUD_KEY}"
 receivers:
   hostmetrics:
     collection_interval: 10s
@@ -77,22 +71,19 @@ processors:
 exporters:
   logging:
     loglevel: debug
-  otlphttp/grafana_cloud:
-    # https://github.com/open-telemetry/opentelemetry-collector/tree/main/exporter/otlpexporter
-    endpoint: "\${GRAFANA_GATEWAY_URL}"
-    auth:
-      authenticator: basicauth/grafana_cloud
+  prometheus:
+    endpoint: localhost:8889
+    namespace: otel-host-metrics
 
 service:
   telemetry:
     logs:
       level: debug
-  extensions: [basicauth/grafana_cloud]
   pipelines:
     metrics:
       receivers: [prometheus, hostmetrics]
       processors: [resourcedetection, attributes, transform/add_resource_attributes_as_metric_attributes]
-      exporters: [otlphttp/grafana_cloud, logging]
+      exporters: [prometheus]
 EOF
 }
 
