@@ -1,6 +1,6 @@
-# 🔎 databricks compute monitoring on grafana
+# 🔎 Databricks Compute Metrics on Grafana
 
-> "a single pane of glass" for cloud compute monitoring on Databricks
+> "a single pane of glass" for cloud compute metrics
 
 ![image](https://github.com/user-attachments/assets/fca71a52-c23d-4b0a-b1bc-fc09d01330b0)
   
@@ -12,7 +12,7 @@
 
 - leverage Grafana Cloud's **dirt-cheap** pricing model
   
-# why monitor and alert?
+# Why monitor and alert?
 
 A robust monitoring and alerting system lets DevOps and engineering teams proactively answer the following questions to help maintain a healthy and stable production environment:
 
@@ -24,7 +24,7 @@ A robust monitoring and alerting system lets DevOps and engineering teams proact
 
 4) **Experiment configurations**: “Were my jobs running slower last week? Should we add more CPU or memory to improve performance?”
 
-# why use this over other solutions? 
+# Why use this over other solutions? 
 
 Currently, no **cloud-agnostic** single-source-of-truth for Databricks Spark Monitoring exists. Native solutions like [Ganglia UI](https://medium.com/quintoandar-tech-blog/ganglia-on-spark-cluster-optimization-at-its-best-e5c9dc29253b) and [Databricks Compute Metrics](https://docs.databricks.com/en/compute/cluster-metrics.html) exist, but...
 
