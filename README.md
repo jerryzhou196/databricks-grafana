@@ -10,7 +10,7 @@
 
 - [terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy across **hundreds** of clusters instantly using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
 
-- leverage Grafana Mimir Cloud's pricing model ($8/month for 1k metric series, which is **far cheaper** than other vendors like DataDog)
+- leverage Grafana Cloud's **dirt-cheap** pricing model
   
 # why monitor and alert?
 
