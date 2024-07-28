@@ -1,6 +1,6 @@
-# 🔎 a single pane of glass for databricks compute monitoring
+# 🔎 a single pane of glass on Grafana for databricks compute monitoring
 
-![image](https://github.com/user-attachments/assets/534d4b60-4ece-46e4-a423-361b60a79463)
+![image](https://github.com/user-attachments/assets/fca71a52-c23d-4b0a-b1bc-fc09d01330b0)
   
 - real-time plug and play functionality with one-click deployment using init-scripts.
 
@@ -10,12 +10,12 @@
 
 - [terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
 
-- leverage Grafana Mimir Cloud's pricing model ($8/month for 1k series, which is **far cheaper** than other vendors like DataDog).
+- leverage Grafana Mimir Cloud's pricing model ($8/month for 1k series, which is **far cheaper** than other vendors like DataDog)
+  
+# why monitor and alert?
 
 https://github.com/user-attachments/assets/febe56b1-cc39-4915-a90d-859e73f2aa0b
 
-
-# why monitor and alert?
 A robust monitoring and alerting system lets DevOps and engineering teams proactively answer the following questions to help maintain a healthy and stable production environment:
 
 1) **Health check:** Are your jobs and your core/golden signals healthy?
