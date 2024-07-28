@@ -1,4 +1,4 @@
-# 🔎 a single pane of glass for everyone's favourite enterprise platform 
+# 🔎 a single pane of glass for databricks compute monitoring  
 
 ![image](https://github.com/user-attachments/assets/534d4b60-4ece-46e4-a423-361b60a79463)
   
