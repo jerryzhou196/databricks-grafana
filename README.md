@@ -1,6 +1,6 @@
 # 🔎 a single pane of glass for your internal data platform 
 
-https://github.com/user-attachments/assets/d5f6742c-b0f5-4a1a-b522-c5488da48265
+![image](https://github.com/user-attachments/assets/534d4b60-4ece-46e4-a423-361b60a79463)
   
 - real-time plug and play functionality with one-click `init script` deployment.
 
