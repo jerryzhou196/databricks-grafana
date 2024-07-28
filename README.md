@@ -1,4 +1,6 @@
-# 🔎 a single pane of glass on Grafana for databricks compute monitoring
+# 🔎 databricks compute monitoring on grafana
+
+> "a single pane of glass" for cloud compute monitoring on Databricks
 
 ![image](https://github.com/user-attachments/assets/fca71a52-c23d-4b0a-b1bc-fc09d01330b0)
   
