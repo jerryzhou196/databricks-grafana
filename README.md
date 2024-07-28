@@ -12,6 +12,7 @@
 
 - leverage Grafana Mimir Cloud's pricing model ($8/month for 1k series, which is **far cheaper** than other vendors like DataDog).
 
+# live demo
 https://github.com/user-attachments/assets/febe56b1-cc39-4915-a90d-859e73f2aa0b
 
 # Why monitor and alert?
