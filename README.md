@@ -6,15 +6,15 @@
   
 - **one-click deployment** using Databricks init-scripts 
 
-- robust design leveraging blazing-fast [open-source OTLP collector agents](https://github.com/open-telemetry/opentelemetry-collector)
+- robust design leveraging **blazing-fast** [open-source OTLP collector agents](https://github.com/open-telemetry/opentelemetry-collector)
 
-- easily fine-tune Spark jobs and identify Spark worst-practices. 
+- use metrics to fine-tune Spark jobs and identify worst-practices 
 
 - identify over-provisioned and under-provisioned instance types
 
 - [terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
 
-- leverage Grafana Mimir Cloud's pricing model ($8/month for 1k series, which is **far cheaper** than other vendors like DataDog)
+- leverage Grafana Mimir Cloud's pricing model ($8/month for 1k metric series, which is **far cheaper** than other vendors like DataDog)
   
 # why monitor and alert?
 
