@@ -10,7 +10,7 @@
 
 - [terraformatically](https://docs.databricks.com/en/dev-tools/terraform/index.html) deploy across **hundreds** of clusters instantly using [Databricks Cluster Policies](https://docs.databricks.com/en/init-scripts/index.html) 
 
-- leverage Grafana Cloud's **dirt-cheap** pricing model
+- leverage Grafana Cloud's **dirt-cheap** pricing model (approximately $8/cluster per month) 
   
 # Why monitor and alert?
 
