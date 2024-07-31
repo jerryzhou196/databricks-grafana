@@ -1,4 +1,4 @@
-# 🔎 Databricks Compute Metrics on Grafana
+# 🔎 Monitor Databricks Compute Metrics on Grafana
 
 > "a single pane of glass" for cloud compute metrics
 
